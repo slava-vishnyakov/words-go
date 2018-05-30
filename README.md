@@ -1,7 +1,9 @@
 ```go
-Words("?! I'm what I am") === []string{"i'm", "what", "i", "am"}
+words.Words("?! I'm what I am")
+    --> []string{"i'm", "what", "i", "am"}
 ```
 
 ```go
-RemoveWords("Hello, my dear friend!", []string{"my"}, "!") === "Hello, ! dear friend!"
+words.RemoveWords("Hello, my dear friend!", []string{"my"}, "!")
+    --> "Hello, ! dear friend!"
 ```
